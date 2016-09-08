@@ -5,6 +5,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim clickedButton As Button = sender
-        clickedButton.Text = "Juppi!"
+        clickedButton.Text = "Juppi! Where you expecting something?"
+        clickedButton.BackColor = Color.Red
     End Sub
 End Class
